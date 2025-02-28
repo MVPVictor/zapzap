@@ -1,0 +1,1 @@
+Fazer meu proprio WhatsApp pra referencias em projetos futuros por fim didático e pra provar que consigo dei um tempo por motivos pessoais desejo completar no futuro e arrumar os bugs que não deixam ele ficar 100%
