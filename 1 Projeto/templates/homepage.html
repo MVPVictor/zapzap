@@ -98,7 +98,8 @@
 
     <script type="text/javascript">
         $(document).ready(function(){
-            var socket = io("192.168.18.52:5000");
+            var socket = io("192.168.1.10:5000");
+            //Toda vez que for trocar de internet colocar o ip da internet no lugar
 
             socket.on("message", function(data){
                 $("#lista_mensagens").append($("<p>").text(data));

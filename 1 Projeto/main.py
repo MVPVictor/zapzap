@@ -32,7 +32,8 @@
 
 # PASSO 13 DEIXA OUTRA PESSOA TESTAR TANTO POR TELEFONE QUANTO PELO COMPUTADOR
 
-#TIRAR MODO debug=true
+# TIRAR MODO debug=true
+# Sempre instalar com (pip install flask) (pip install flask_socketio) e etc toda vez que trocar de maquina
 
 from flask import Flask, render_template
 from flask_socketio import SocketIO, send
@@ -48,4 +49,5 @@ def gerenciar_mensagem(mensagem):
 def homepage():
     return render_template("homepage.html")
 
-socketio.run(app, debug=True, host="192.168.18.52")
+socketio.run(app, debug=True, host="192.168.1.10")
+#Toda vez que for trocar de internet colocar o ip da internet no lugar
